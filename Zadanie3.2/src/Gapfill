@@ -1,0 +1,14 @@
+Treść zadania
+
+Klasa to zestaw cech i funkcjonalności  danego elementu (obiektu).
+Obiekt to konkretna reprezentacja (egzemplarz) klasy.
+Zmienna to podstawowy element do przechowywania danych w kodzie.
+Każda zmienna musi mieć określony typ, np. int, albo String.
+Jeżeli deklarację zmiennej poprzedzimy słowem final, to wartość tej zmiennej przypisujemy tylko raz.
+W klasie mogą się znajdować typ zmiennej, nazwa zmiennej i konstruktor.
+Konstruktory są wywoływane przez operator new i służą do tworzenia nowych obiektów.
+Jeśli w klasie zdefiniowano chociaż jeden konstruktor to kompilator nie wygeneruje dla nas konstruktora domyślnego.
+Zakładając, że istnieje klasa Car, to przy zapisie:
+Car car1 = new Car(„BMW”, „M5”, 2007, 2.6);
+Car car2 = car1;​
+car1 i car2 to dwie referencje wskazujące na ten sam obiekt.
